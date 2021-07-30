@@ -1,0 +1,290 @@
+body {
+    
+   
+    background-color: #eee;
+    
+}
+.home-navbar{
+	background-color:transparent;
+}
+
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-signin-heading,
+.form-signin .checkbox {
+    margin-bottom: 10px;
+}
+
+.form-signin .checkbox {
+    font-weight: normal;
+}
+
+.form-signin .form-control {
+    position: relative;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 10px;
+    font-size: 22px;
+}
+
+.form-signin .form-control:focus {
+    z-index: 2;
+}
+
+.form-signin input {
+    margin-top: 10px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.form-signin button {
+    margin-top: 10px;
+}
+
+.has-error {
+    color: red
+}
+
+#footer{
+ position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.copyright {
+    text-align: center;
+    padding-top: 10px;
+    color: #535074;
+    font-size: 20px;
+}
+.footer-container{
+	background-color:#eeeeee;
+}
+
+.credits {
+    text-align: center;
+    font-size: 22px;
+    color: #8582a8;
+    padding-bottom: 5px;
+}
+
+.credits a {
+  color: #1bb1dc;
+}
+
+.credits a:hover {
+  color: #0a98c0;
+}
+
+/* HERO SECTION */
+#hero {
+  width: 100%;
+ 
+  position: relative;
+
+  background-size: cover;
+
+}
+.about .content {
+  background-color: #f6f9ff;
+  padding: 40px;
+}
+
+.about h3 {
+  font-size: 14px;
+  font-weight: 700;
+  color: #4154f1;
+  text-transform: uppercase;
+}
+
+.about h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #012970;
+}
+
+.about p {
+  margin: 15px 0 30px 0;
+  line-height: 24px;
+}
+
+.about .btn-read-more {
+  line-height: 0;
+  padding: 15px 40px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #4154f1;
+  box-shadow: 0px 5px 25px rgba(65, 84, 241, 0.3);
+}
+
+.about .btn-read-more span {
+  font-family: "Nunito", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+
+.about .btn-read-more i {
+  margin-left: 5px;
+  font-size: 18px;
+  transition: 0.3s;
+}
+
+.about .btn-read-more:hover i {
+  transform: translateX(5px);
+}
+
+@media (max-width: 991px) {
+  #hero {
+    height: auto;
+    padding: 100px 0 60px 0;
+  }
+  #hero .container {
+    height: auto !important;
+  }
+  #hero .intro-img {
+    width: 80%;
+  }
+}
+
+@media (min-width: 992px) {
+  #hero .intro-info {
+    padding-top: 100px;
+  }
+}
+
+@media (max-width: 991px) {
+  #hero .intro-info {
+    text-align: center;
+    padding-top: 40px;
+  }
+}
+
+#hero .intro-info h2 {
+  color: #413e66;
+  margin-bottom: 40px;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+#hero .intro-info h2 span {
+  color: #1bb1dc;
+}
+
+@media (max-width: 991px) {
+  #hero .intro-info h2 {
+    font-size: 34px;
+    margin-bottom: 30px;
+  }
+}
+
+#hero .intro-info .btn-get-started, #hero .intro-info .btn-services {
+  font-family: "Montserrat", sans-serif;
+  font-size: 13px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: #fff;
+  background: #1bb1dc;
+  color: #fff;
+}
+
+#hero .intro-info .btn-get-started:hover, #hero .intro-info .btn-services:hover {
+  background: #0a98c0;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,500,300,700);
+
+* {
+  font-family: Open Sans;
+}
+
+.icon-mid{
+  color:#fff;
+  margin-bottom: 1rem;
+  margin-top: 30px;
+  padding: 10px;
+
+}
+.icon-mid:hover{
+  color:#000;
+ }
+ #icon-boxes{
+   background-color: #fafafa;
+ }
+ .contact-us{
+   padding-left: 40px;
+   
+ }
+
+
+/* If you don't want the footer to be responsive, remove these media queries */
+
+@media (max-width: 880px) {
+
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	}
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+.contact-us{
+  border: 1px solid white;
+}
+
+
+}
+.health-button{
+  margin-left: 55px;
+}
+
+
+/* footer-inner */
+
+.cardheight{
+height: 250px;
+}
+
+
+
+
+.container {
+    max-width: 1500px;
+}
+
+
+.cardstyling{
+border-radius: 20px;
+
+}
+.cardstyling :hover{
+  border-radius: 20px;
+  background-color: #1bb1dc;
+  
+}
